@@ -70,7 +70,7 @@ else
 fi
 }
 
-cd /root/cfipopw/ && rm -rf informlog && bash cdnac.sh
+cd /root/yz/ && rm -rf informlog && bash cdnac.sh
 if [ "$ymorip" == "1" ]; then
 sed -i '/api.cloudflare.com/d' /etc/hosts
 proxy="false";
