@@ -48,17 +48,15 @@ SOURCE_FILE=/root/cfipopw/result1.csv # 源文件路径
 TEMP_FILE=$DIRECTORY/ip_tmp.txt # 临时文件路径
 DEST_FILE=$DIRECTORY/ip_geo.txt # 目标文件路径
 COMMIT_MESSAGE="Update ip_geo.txt" # 提交信息
-
-
-echo      _____________________________      __________  /_
-echo      _  __ \__  __ \  _ \_  __ \_ | /| / /_  ___/  __/
-echo      / /_/ /_  /_/ /  __/  / / /_ |/ |/ /_  /   / /_
-echo      \____/_  .___/\___//_/ /_/____/|__/ /_/    \__/
-echo            /_/    
+echo 
+echo 
+echo    
 echo         _________________________________________
 echo                           
 echo         cdn.yh-iot.com by yuanzhou04@gmail.com
 echo         _________________________________________
+echo 
+echo "准备拉取IP地址库》》》》》》》》》"
 sleep 2
 
 
