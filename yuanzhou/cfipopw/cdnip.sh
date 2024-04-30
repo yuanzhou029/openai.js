@@ -158,7 +158,7 @@ echo "已停止$CLIEN";
 fi
 
 if [ "$IP_ADDR" = "ipv6" ] ; then
-    ./cfst -tp $point2 $CFST_URL2_R -t $CFST_T -n $CFST_N -dn $CFST2_DN -p $CFST2_DN -tl $CFST2_TL -tll $CFST2_TLL -sl $CFST2_SL -f ipv6.txt -f fd-ip.txt $CFST2_SPD -dt 8
+    ./cfst -tp $point3 $CFST_URL2_R -t $CFST_T -n $CFST_N -dn $CFST2_DN -p $CFST2_DN -tl $CFST2_TL -tll $CFST2_TLL -sl $CFST2_SL -f ipv6.txt -f fd-ip.txt $CFST2_SPD -dt 8
 else
     ./cfst -tp $point2 $CFST_URL2_R -t $CFST_T -n $CFST_N -dn $CFST2_DN -p $CFST2_DN -tl $CFST2_TL -tll $CFST2_TLL -sl $CFST2_SL -f fd-ip.txt $CFST2_SPD -dt 8
 fi
